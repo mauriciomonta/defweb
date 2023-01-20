@@ -5,7 +5,7 @@
 
 .App {
 	text-align: center;
-  background-color: #000;
+	background-color: #000;
 }
 
 .fullcontainer {
@@ -18,16 +18,14 @@
 	height: 100vh;
 }
 
-.workingcontent{
+.workingcontent {
 	backdrop-filter: blur(4px);
-	box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.2);
-  width: 80vw;
-	height: 80vh;
-	border-radius: 20px;
+	width: 100vw;
+	height: 100vh;
 	color: #fff;
 	background: rgba(0, 0, 0, 0.1);
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -35,7 +33,7 @@
 .workingcontent > h1 {
 	font-size: 5rem;
 	margin-bottom: -50px;
-	color: #EDFF00;
+	color: #edff00;
 	font-family: 'Cashkings';
 	z-index: 99;
 }
@@ -45,7 +43,6 @@
 }
 
 @font-face {
-	font-family: "Cashkings";   /*Can be any text*/
-	src: local("Cashkings"),
-	  url("./fonts/Cashkings.ttf") format("truetype");
-  }
+	font-family: "Cashkings"; /*Can be any text*/
+	src: local("Cashkings"), url("./fonts/Cashkings.ttf") format("truetype");
+}
